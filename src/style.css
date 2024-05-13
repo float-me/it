@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .char-btn-card{
+    text-align: center;
+    border-radius: 0.5rem;
+    /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px; */
+    padding : 0.8rem;
+    margin : 0 0 1rem 0;
+    border : 1px solid #dee2e6;
+    vertical-align: center;
+    
+    /* display : inline-block; */
+    width : 90vw;
+    height: 33vh;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .char-container{
+    line-height: 2rem;
+  }
+  
+  .char-btn{
+    color:#fff;
+    background-color: rgba(13, 110, 253, 0.9);
+    font-size: 0.9rem;
+    border-radius: 100000px;
+    padding: 0.35em 0.75em;
+    margin: 0.1rem;
+    outline: none;
+    
+    white-space:nowrap;
+    
+  }
+
+  .input-box{
+    color:#fff;
+    background-color: rgba(236, 236, 236, 0.583);
+    font-size: 0.9rem;
+    border-radius: 10px;
+    padding: 0.35em 0.75em;
+    margin: 0.1rem;
+    outline: none;
+  }
